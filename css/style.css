@@ -26,8 +26,35 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.6rem;
-  line-height: 2.7rem;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: var(--primaryColor);
+}
+
+/* Icons */
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+/* Header Section */
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Header Top */
@@ -57,20 +84,38 @@ header ul li {
   right: 5rem;
 }
 
-/* Icons */
+/* Header Hero */
 
-.icon {
-  width: 25px;
-  height: 25px;
+.header-hero {
+  display: flex;
+  padding: 7rem;
+  justify-content: space-around;
+  align-items: center;
 }
 
-/* Links */
-
-a {
-  text-decoration: none;
+.hero-content {
+  max-width: 500px;
+  min-width: 480px;
+  margin-right: 1.5em;
 }
 
-a:link,
-a:visited {
-  color: var(--primaryColor);
+.hero-content h1 {
+  line-height: 1.3em;
+  margin-bottom: 0.3em;
+}
+
+.hero-img {
+  display: block;
+  min-width: 300px;
+  width: 35%;
+  margin-top: 1em;
+}
+
+.btn {
+  background-color: var(--primaryColor);
+  border: none;
+  font-weight: 800;
+  margin-top: 2em;
+  padding: 0.5em 1.8em;
+  cursor: pointer;
 }
