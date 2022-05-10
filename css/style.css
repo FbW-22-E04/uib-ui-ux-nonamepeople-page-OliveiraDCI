@@ -29,3 +29,48 @@ body {
   font-size: 1.6rem;
   line-height: 2.7rem;
 }
+
+/* Header Top */
+
+.header-top {
+  position: relative;
+  height: 100px;
+  padding: 3rem;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+.logo {
+  fill: var(--primaryColor);
+}
+
+.logo-text {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.icon-menu {
+  position: absolute;
+  top: 3rem;
+  right: 5rem;
+}
+
+/* Icons */
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: var(--primaryColor);
+}
